@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/resources/pages/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/resources/pages/header.jsp" />  
+        <put-attribute name="body" value="" />  
+        
+    </definition>  
+    
+     <definition name="user.definition"  
+        template="/resources/userpages/userlayout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/resources/userpages/useheader.jsp" />  
+        <put-attribute name="body" value="" />  
+        
+    </definition>  
+  
+   <definition name="userregistration" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />
+        <put-attribute name="header" value="" /> 
+        <put-attribute name="body" value="/resources/userpages/userregistration.jsp" />  
+    </definition>    
+  
+        
+    <definition name="welcome" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/pages/home.jsp" />  
+    </definition> 
+    
+    <definition name="login" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />
+        <put-attribute name="header" value="" />  
+        <put-attribute name="body" value="/resources/pages/login.jsp" />  
+    </definition> 
+    
+    <definition name="forgetpassword" extends="base.definition">  
+        <put-attribute name="title" value="forget password" />
+        <put-attribute name="header" value="" />  
+        <put-attribute name="body" value="/resources/pages/forgetpassword.jsp" />  
+    </definition> 
+    
+    
+    <definition name="viewallusers" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/pages/viewalluser.jsp" />  
+    </definition>
+    
+    <definition name="updateuser" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />
+       
+        <put-attribute name="body" value="/resources/userpages/updateuser.jsp" />  
+    </definition>
+    
+    <definition name="viewalltransactions" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/pages/viewalltransaction.jsp" />  
+    </definition>
+    
+    <definition name="demo" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/pages/demo.jsp" />  
+    </definition> 
+    
+    <definition name="userhome" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/userpages/userhome.jsp" />  
+    </definition> 
+    
+    <definition name="ordersummary" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/userpages/ordersummary.jsp" />  
+    </definition> 
+    
+	<definition name="billsummary" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/userpages/billsummary.jsp" />  
+    </definition> 
+    
+    <definition name="confirmOrder" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/userpages/summary.jsp" />  
+    </definition> 
+    
+    <definition name="aboutproduct" extends="user.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/resources/userpages/aboutproduct.jsp" />  
+    </definition> 
+    
+    
+     <definition name="aprioriresults" extends="base.definition">  
+        <put-attribute name="title" value="Contact Manager" />
+        <put-attribute name="body" value="/resources/pages/aprioriresults.jsp" />  
+    </definition>
+    
+    <definition name="userprofiles" extends="user.definition">  
+        <put-attribute name="title" value="User Profiles" />  
+        <put-attribute name="body" value="/resources/userpages/userprofile.jsp" />  
+    </definition>
+    
+    <definition name="login" extends="base.definition">  
+        <put-attribute name="title" value="Login Page" />
+        <put-attribute name="header" value="" />  
+        <put-attribute name="body" value="/resources/pages/login.jsp" />  
+    </definition>
+    
+    <definition name="changepassword" extends="user.definition">  
+        <put-attribute name="title" value="Change Password" />  
+        <put-attribute name="body" value="/resources/userpages/changepassword.jsp" />  
+    </definition>
+    
+      <definition name="addproduct" extends="base.definition">  
+        <put-attribute name="title" value="Add Product" />  
+        <put-attribute name="body" value="/resources/pages/addproduct.jsp" /> 
+    </definition>
+    
+    <definition name="searchresults" extends="user.definition">  
+        <put-attribute name="title" value="Search Results" />  
+        <put-attribute name="body" value="/resources/userpages/searchresults.jsp" />  
+    </definition>
+    
+    <definition name="contact" extends="user.definition">  
+        <put-attribute name="title" value="Contact Manager" />  
+        <put-attribute name="body" value="/resources/userpages/contact.jsp" />  
+    </definition>
+    
+    <definition name="about" extends="user.definition">  
+        <put-attribute name="title" value="About us" />  
+        <put-attribute name="body" value="/resources/userpages/about.jsp" />  
+    </definition>
+    
+    
+    <definition name="services" extends="user.definition">  
+        <put-attribute name="title" value="Services" />  
+        <put-attribute name="body" value="/resources/userpages/services.jsp" />  
+    </definition>
+    
+    <definition name="services" extends="user.definition">  
+        <put-attribute name="title" value="Services" />  
+        <put-attribute name="body" value="/resources/userpages/services.jsp" />  
+    </definition>
+    
+    <definition name="faq" extends="user.definition">  
+        <put-attribute name="title" value="FAQ" />  
+        <put-attribute name="body" value="/resources/userpages/faq.jsp" />  
+    </definition>
+    
+    <definition name="catagory" extends="base.definition">  
+        <put-attribute name="title" value="Catagory" />  
+        <put-attribute name="body" value="/resources/pages/catagory.jsp" />  
+    </definition>
+</tiles-definitions>  
