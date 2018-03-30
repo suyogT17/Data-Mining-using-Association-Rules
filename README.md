@@ -19,6 +19,11 @@ Spring MVC , Jquery , Hibernate , Bootstrap
 ```
 MySQL
 ```
+
+### Project dendencies
+
+Download all the Jars from ![Here](https://drive.google.com/open?id=1LolLFkUU0VfxFplfp7whcPsgYdGAqgYe)
+Include All the jars in project Build path 
  
 ### Screenshots
 
